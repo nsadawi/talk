@@ -30,8 +30,8 @@
 %\author{Noureddin SadawiBrunel University - London} 
 %\date{\today} 
 
-\title[Meta-QSAR EPSRC Project Meeting 19/20 Feb 2015] % (optional, only for long titles)
-{Meta-QSAR EPSRC Project Meeting 19/20 Feb 2015}
+\title[Meta-QSAR EPSRC Project Meeting 19-20 Feb 2015] % (optional, only for long titles)
+{Meta-QSAR EPSRC Project Meeting 19-20 Feb 2015}
 %\subtitle{Can we improve Drug Design \& Discovery?}
 \author[Brunel University Team] % (optional, for multiple authors)
 {Brunel University Team}
@@ -262,6 +262,19 @@
 \end{figure}
 \end{frame}
 
+\section{Database Backup}
+\begin{frame}
+\frametitle{Database Backup} 
+\begin{itemize}%[<+->]
+ \item In the unlikely event of data loss/damage
+ \item We perform nightly back up of databases from Manchester to Brunel
+ \item Currently:
+    \begin{itemize}%[<+->]
+       \item qsars\_db
+       \item metaqsar\_db
+    \end{itemize}
+\end{itemize}
+\end{frame}
 
 \section{Metadata \& Classification of Targets}
 \begin{frame}
@@ -269,8 +282,8 @@
 \begin{itemize}%[<+->]
 %\item About small molecules (drugs)
 %\item Meta-learning requires data about base level learning problems or tasks, i.e., training metadata
-\item About datasets (metadata)
-\item About drug targets (metadata)
+\item Meta-features of datasets
+\item Classification of targets
 \end{itemize}
 
 
@@ -299,30 +312,27 @@
 \frametitle{Classification of Targets} 
 \begin{itemize}%[<+->]
   \item Exchanged emails with Richard regarding Classification of Targets
-  \item Decided to exclude targets with multiple components (protein families)
+  \item Decided to exclude targets with multiple components (multi-protein targets)
   \item Knowing protein family in advance should be advantageous
   \item Analysis of groups of drug targets
   \item Possibly group targets in a more useful/meaningful way  
   \item Currently the Manchester team is dealing with this
 \end{itemize}
 \end{frame}
+
+\begin{frame}
+\frametitle{Types of Targets} 
+\begin{figure}[h!]
+  %\caption{A picture of a gull.}
+  \centering
+    \includegraphics[width=0.85\textwidth]{targets}
+\end{figure}
+\end{frame}
  
 
 
 
-\section{Database Backup}
-\begin{frame}
-\frametitle{Database Backup} 
-\begin{itemize}%[<+->]
- \item In the unlikely event of data loss/damage
- \item We perform nightly back up of databases to Brunel
- \item Currently:
-    \begin{itemize}%[<+->]
-       \item qsars\_db
-       \item metaqsar\_db
-    \end{itemize}
-\end{itemize}
-\end{frame}
+
 
 
 
